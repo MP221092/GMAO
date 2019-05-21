@@ -7,15 +7,12 @@
 	border-left: 4px solid black;
     border-right: 4px solid black;
     box-shadow: 4px 4px 0px black;
-    margin-left: 40%;
-    margin-right: 40%;
 	}
 
 	h2
 	{
 	color: white;
 	background-image: url("imagesite/marbre.jpg");
-	background-position: 30px 50px;
 	border-left: 4px solid black;
     border-right: 4px solid black;
     box-shadow: 4px 4px 0px black;
@@ -25,11 +22,9 @@
 
 	section
 	{
-	background-position: 30px 50px;
    	width: 700px;
    	text-align: center;
-  	padding: 50px;
-   	margin: 50px; /* Marge extérieure de 50px */
+  	padding: 50px; /* Marge extérieure de 50px */
 	}
 
 	a
@@ -49,10 +44,10 @@
 	{
 	color: white;
 	background-image: url("imagesite/ardoise.jpg");
-	background-position: 30px 50px;
-	border-left: 4px solid black;
-    border-right: 4px solid black;
-    box-shadow: 4px 4px 0px black;
+	background-position: 1px;
+	border-left: 5px solid black;
+    border-right: 5px solid black;
+    box-shadow: 5px 4px 0px black;
     padding: 50px;
 	}
 
@@ -80,14 +75,10 @@
 
 	img
 	{
-	background-position: 30px 50px;
+	float:right;
 	border-left: 4px solid black;
     border-right: 4px solid black;
     box-shadow: 4px 4px 0px black;
+    margin: 150px;
+    margin-top: -500px;
 	}
-
-
-	iframe
-	{
-		width: 50%;
-		height: 50%;
