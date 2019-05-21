@@ -1,14 +1,14 @@
 @font-face
 	{
-    font-family: 'mod';
-    src: url('Modern.otf');
+    font-family: 'ch';
+    src: url('pchantier.ttf');
 	}
 	
 
 	h1
 	{
-	color: white;
-	font-family:'mod';
+	color: yellow;
+	font-family:'ch';
 	background-image: url("imagesite/marbre.jpg");
 	background-position: 30px 50px;
 	border-left: 4px solid black;
@@ -18,8 +18,8 @@
 
 	h2
 	{
-	color: white;
-	font-family:'mod';
+	color: yellow;
+	font-family:'ch';
 	background-image: url("imagesite/marbre.jpg");
 	border-left: 4px solid black;
     border-right: 4px solid black;
@@ -30,7 +30,7 @@
 
 	section
 	{
-	font-family:'mod';
+	font-family:'ch';
    	width: 700px;
    	text-align: center;
   	padding: 50px; /* Marge extérieure de 50px */
@@ -39,7 +39,7 @@
 	a
 	{
 	padding:70px;
-	color: #ffffff;
+	color: #ffff00;
 	}
 
 	
@@ -51,9 +51,9 @@
 
 	li
 	{
-	color: white;
-	background-image: url("imagesite/cha.jpg");
-	background-position: 1px;
+	color: yellow;
+	background-image: url("imagesite/chacha.jpg");
+	background-position: 2px;
 	border-left: 5px solid black;
     border-right: 5px solid black;
     box-shadow: 5px 4px 0px black;
@@ -62,7 +62,7 @@
 
 	p
 	{
-	color: white;
+	color: yellow;
 	background-image: url("imagesite/marbre.jpg");
 	background-position: 30px 50px;
 	border-left: 4px solid black;
@@ -80,14 +80,4 @@
 	background-image: url("imagesite/chantier.jpg");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	}
-
-	img
-	{
-	float:right;
-	border-left: 4px solid black;
-    border-right: 4px solid black;
-    box-shadow: 4px 4px 0px black;
-    margin: 150px;
-    margin-top: -500px;
 	}

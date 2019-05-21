@@ -1,7 +1,14 @@
+	@font-face
+	{
+    font-family: 'mod';
+    src: url('Modern.otf');
+	}
+	
 
 	h1
 	{
 	color: white;
+	font-family:'mod';
 	background-image: url("imagesite/marbre.jpg");
 	background-position: 30px 50px;
 	border-left: 4px solid black;
@@ -12,6 +19,7 @@
 	h2
 	{
 	color: white;
+	font-family:'mod';
 	background-image: url("imagesite/marbre.jpg");
 	border-left: 4px solid black;
     border-right: 4px solid black;
@@ -22,6 +30,7 @@
 
 	section
 	{
+	font-family:'mod';
    	width: 700px;
    	text-align: center;
   	padding: 50px; /* Marge extérieure de 50px */
@@ -29,7 +38,7 @@
 
 	a
 	{
-	padding:50px;
+	padding:70px;
 	color: #ffffff;
 	}
 
