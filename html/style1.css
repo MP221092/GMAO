@@ -25,10 +25,24 @@
 
 	section
 	{
-   width: 700px;
-   text-align: center;
-   padding: 50px;
-   margin: 50px; /* Marge extérieure de 50px */
+	background-position: 30px 50px;
+   	width: 700px;
+   	text-align: center;
+  	padding: 50px;
+   	margin: 50px; /* Marge extérieure de 50px */
+	}
+
+	a
+	{
+	padding:50px;
+	color: #ffffff;
+	}
+
+	
+	a:hover, a:focus, a:active
+	{
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color:#ff0000;
 	}
 
 	li
@@ -39,6 +53,7 @@
 	border-left: 4px solid black;
     border-right: 4px solid black;
     box-shadow: 4px 4px 0px black;
+    padding: 50px;
 	}
 
 	p
