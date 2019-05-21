@@ -1,3 +1,7 @@
+<?php
+include 'verif_session.php';
+?>
+
 
 <form action="ajout_technicien_bdd.php" method="post">
 	<div>
