@@ -1,4 +1,6 @@
 <?php
+include 'verif_session.php';
+
 
 	try{
 		$bdd = new PDO("mysql:host=localhost;dbname=gmao", "root", "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)); //connexion à la base de donnée
