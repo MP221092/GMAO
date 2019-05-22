@@ -28,12 +28,14 @@
     margin-right: 40%;
 	}
 
-	section
+	section 
 	{
+	display: inline-table; /* permet de repartir les blocs a l'horizontale */
 	font-family:'ch';
-   	width: 700px;
+   	width: 550px;
    	text-align: center;
-  	padding: 50px; /* Marge extérieure de 50px */
+  	padding: 40px; /* Marge extérieure de 50px */
+  	margin-right:-1%;
 	}
 
 	a
