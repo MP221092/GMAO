@@ -7,8 +7,10 @@
 
   if (x)
       window.location.href = url;
-  else
-    return false;
+  else{
+  	return false;
+  }
+    
 }
 
 </script>
