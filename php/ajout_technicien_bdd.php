@@ -25,7 +25,7 @@ include 'verif_session.php';
 	{
 		echo '<list>Le technicien que vous avez rentré existe déjà</list>';
 
-		?><meta http-equiv="refresh" content="5; URL=ajout_technicien_formulaire.php"><?php //renvoie sur le forumaire
+		?><br><meta http-equiv="refresh" content="5; URL=ajout_technicien_formulaire.php">Redirection vers formulaire dans 5 secondes<?php //renvoie sur le forumaire
 	}
 
 	else
@@ -40,7 +40,7 @@ include 'verif_session.php';
 
 		echo '<list>' .strtolower($_POST['prenom']). ' ' .strtoupper($_POST['nom']) . ' a été ajouté</list>';
 
-		?><meta http-equiv="refresh" content="5; URL=ajout_technicien_formulaire.php"><?php //renvoie sur le forumair
+		?><br><meta http-equiv="refresh" content="5; URL=ajout_technicien_formulaire.php">Redirection vers formulaire dans 5 secondes<?php //renvoie sur le forumair
 
 	}
 
