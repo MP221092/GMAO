@@ -1,0 +1,91 @@
+	@font-face
+	{
+    font-family: 'R';
+    src: url('rom.otf');
+	}
+	
+
+	h1
+	{
+	color: white;
+	font-family:'R';
+	background-image: url("block.jpg");
+	background-position: 30px 50px;
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+	}
+
+	h2
+	{
+	color: white;
+	font-family:'R';
+	background-image: url("block.jpg");
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+	}
+
+	section
+	{
+	font-family:'R';
+   	width: 600px;
+   	text-align: center;
+  	padding: 50px; /* Marge extérieure de 50px */
+	}
+
+	a
+	{
+	padding:70px;
+	color: #ffffff;
+	}
+
+	
+	a:hover, a:focus, a:active
+	{
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color:#ff0000;
+	}
+
+	li
+	{
+	color: white;
+	background-image: url("block.jpg");
+	background-position: 1px;
+	border-left: 5px solid black;
+    border-right: 5px solid black;
+    box-shadow: 5px 4px 0px black;
+    padding: 50px;
+	}
+
+	p
+	{
+	color: white;
+	background-image: url("block.jpg");
+	background-position: 30px 50px;
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+    margin-left: 30%;
+    margin-right: 30%;
+	}
+
+	body
+	{
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	font-size  : x-large;
+	background-image: url("fond1.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	}
+
+	img
+	{
+	float:right;
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+    margin: 150px;
+    margin-top: -500px;
+	}

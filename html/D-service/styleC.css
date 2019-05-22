@@ -1,0 +1,83 @@
+@font-face
+	{
+    font-family: 'ch';
+    src: url('pchantier.ttf');
+	}
+	
+
+	h1
+	{
+	color: yellow;
+	font-family:'ch';
+	background-image: url("marbre.jpg");
+	background-position: 30px 50px;
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+	}
+
+	h2
+	{
+	color: yellow;
+	font-family:'ch';
+	background-image: url("marbre.jpg");
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+    margin-left: 40%;
+    margin-right: 40%;
+	}
+
+	section
+	{
+	font-family:'ch';
+   	width: 700px;
+   	text-align: center;
+  	padding: 50px; /* Marge extérieure de 50px */
+	}
+
+	a
+	{
+	padding:70px;
+	color: #ffff00;
+	}
+
+	
+	a:hover, a:focus, a:active
+	{
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color:#ff0000;
+	}
+
+	li
+	{
+	color: yellow;
+	background-image: url("chacha.jpg");
+	background-position: 2px;
+	border-left: 5px solid black;
+    border-right: 5px solid black;
+    box-shadow: 5px 4px 0px black;
+    padding: 50px;
+	}
+
+	p
+	{
+	color: yellow;
+	background-image: url("marbre.jpg");
+	background-position: 30px 50px;
+	border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 4px 4px 0px black;
+    margin-left: 30%;
+    margin-right: 30%;
+	}
+
+	body
+	{
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	font-size  : x-large;
+	background-image: url("chantier.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	}
