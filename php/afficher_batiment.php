@@ -1,3 +1,18 @@
+<script type="text/javascript"> //utilisation de javascript
+	function ConfirmDelete(id)
+{
+  var x = window.confirm("Voulez vous vraiment supprimer ce bâtiment ?"); //demande une confirmation
+  
+  var url = "supprimer_batiment.php?id=" + id;
+
+  if (x)
+      window.location.href = url;
+  else
+    return false;
+}
+
+</script>
+
 <?php
 
 try{
@@ -11,10 +26,14 @@ catch(Exception $e){
 $req = $bdd->query('SELECT * FROM batiment ORDER BY nom');
 
 while($reponse = $req->fetch()){
-	//affiche tous les techniciens avec leur NOM et prénom et ajoute un bouton pour les supprimer de la BDD
-	////////A AJOUTER///////
-	//message de confirmation//
-	echo '<p>Bâtiment: ' .$reponse['nom']. ' |  <button ><a  href="supprimer_batiment.php?id='.$reponse['id'].' ">Détruire</a></button></p>';
+	
+
+	echo '<p>Bâtiment: ' .$reponse['nom'];
+
+	echo '<input type="button" onClick="ConfirmDelete('.$reponse['id'].')"  value="Supprimer"></p>';
+
+
+	
 }
 
 
