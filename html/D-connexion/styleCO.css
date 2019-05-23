@@ -40,7 +40,6 @@
 	color: #ffffff;
 	}
 
-	
 	a:hover, a:focus, a:active
 	{
     /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
@@ -80,12 +79,7 @@
 	background-repeat: no-repeat;
 	}
 
-	img
+	.fram
 	{
-	float:right;
-	border-left: 4px solid black;
-    border-right: 4px solid black;
-    box-shadow: 4px 4px 0px black;
-    margin: 150px;
-    margin-top: -500px;
+	margin-left: 2%;
 	}
