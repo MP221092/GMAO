@@ -1,16 +1,11 @@
 <script type="text/javascript"> //utilisation de javascript
-	function ConfirmDelete(id)
+	function ConfirmDelete()
 {
   var x = window.confirm("Voulez vous vraiment supprimer ce bâtiment ?"); //demande une confirmation
-  
-  var url = "supprimer_batiment.php?id=" + id;
-
   if (x)
-      window.location.href = url;
-  else{
-  	return false;
-  }
-    
+      return true;
+  else
+    return false;
 }
 
 </script>
@@ -32,7 +27,7 @@ while($reponse = $req->fetch()){
 
 	echo '<p>Bâtiment: ' .$reponse['nom'];
 
-	echo '<input type="button" onClick="ConfirmDelete('.$reponse['id'].')"  value="Supprimer"></p>';
+	echo '<a href="supprimer_batiment.php" onclick="ConfirmDelete()">Supprimer</a>';
 
 
 	

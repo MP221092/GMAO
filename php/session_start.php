@@ -10,7 +10,7 @@ if($_SESSION['mdp'] == "1234"){
 }
 
 else{
-	?><meta http-equiv="refresh" content="0; URL=connexion.php"><?php
+	?><meta http-equiv="refresh" content="0; URL=../html/connexion.html"><?php
 }
 
 
